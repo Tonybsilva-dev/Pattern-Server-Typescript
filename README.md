@@ -10,6 +10,7 @@ My only goal here is to help you standardize your project automatically, increas
 
   - Node
   - Yarn
+  - Visual Studio Code
 
 ##### Seriously, all of that!
 ###### Ok, Lets go!
@@ -35,5 +36,16 @@ $ yarn add ts-node-dev
 💡 Note: Here we add a project change watcher, while constantly running the server
 
 ```
+
+## Adding some scripts
+After installing your Visual Studio code, in your terminal type:
+
+```
+# Open your Project in Visual Studio Code
+$ code .
+
+
+```
+
 
 Antônio Bernardino 👋🏽 [Entre em contato!](https://www.linkedin.com/in/tony-silva/)
