@@ -94,12 +94,7 @@ $ yarn add eslint -D
 Still in the terminal we will choose some options to standardize our code.
 Have it as a style guide!
 
-The settings can be made in three different ways, namely:
-
-Answer questions about your style.
-
 Answering style questions
-Selecting this configuration option, we must answer some questions:
 
 ```bash
 
