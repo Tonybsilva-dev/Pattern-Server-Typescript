@@ -68,10 +68,16 @@ We will dramatically increase our compilation speed
 3. ** --transpileOnly: ** The flag indicates that it only transpils the code and does not check whether it is right or wrong.
 4. ** --respawn: ** The flag is for ts-node-dev to observe changes in the code, to transpile and auto-reload the application.
 5. - ** --no-notify: ** The flag is used to remove server update notifications from the node.
-# We can add some flags to our script ignoring some conditions and increasing our compilation speed, they may not be as noticeable on a small project, but try removing some of them when your project is bigger!
-
-
 ```
+We can add some flags to our script ignoring some conditions and increasing our compilation speed, they may not be as noticeable on a small project, but try removing some of them when your project is bigger!
 
+Now an example of what your script would look like
 
+```bash
+"scripts": {
+    "build": "tsc",
+    "dev:server": "ts-node-dev --inspect --ignore-watch node_modules --transpileOnly src/server.ts"
+  },
+```
+###### Simple, isn't it?
 Antônio Bernardino 👋🏽 [Entre em contato!](https://www.linkedin.com/in/tony-silva/)
