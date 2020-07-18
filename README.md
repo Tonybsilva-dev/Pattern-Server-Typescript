@@ -40,16 +40,16 @@ $ yarn add ts-node-dev
 ## Adding some scripts
 After installing your Visual Studio code, in your terminal type:
 
-```
+```bash
 # Open your Project in Visual Studio Code
 $ code .
 
 ```
 Now, opening the package.json file, under license, let's include some scripts.
 
-```
+```bash
 # We will call it 'dev: server', it will bring up the execution of ts-node-dev on top of our server.js file
-$ "scripts": {
+ "scripts": {
     "build": "tsc",
     "dev:server": "ts-node-dev src/server.ts"
   },
