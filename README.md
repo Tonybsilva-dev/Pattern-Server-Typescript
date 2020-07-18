@@ -44,8 +44,20 @@ After installing your Visual Studio code, in your terminal type:
 # Open your Project in Visual Studio Code
 $ code .
 
+```
+Now, opening the package.json file, under license, let's include some scripts.
 
 ```
+# We will call it 'dev: server', it will bring up the execution of ts-node-dev on top of our server.js file
+$ "scripts": {
+    "build": "tsc",
+    "dev:server": "ts-node-dev src/server.ts"
+  },
+# When saving, we can start a terminal within the visual itself and run the command 'yarn dev: server'
+
+
+```
+
 
 
 Antônio Bernardino 👋🏽 [Entre em contato!](https://www.linkedin.com/in/tony-silva/)
