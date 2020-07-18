@@ -37,7 +37,7 @@ $ yarn add ts-node-dev
 
 ```
 
-## Adding some scripts
+### Adding some scripts
 After installing your Visual Studio code, in your terminal type:
 
 ```bash
@@ -45,6 +45,8 @@ After installing your Visual Studio code, in your terminal type:
 $ code .
 
 ```
+###### Simple, isn't it?
+
 Now, opening the package.json file, under license, let's include some scripts.
 
 ```bash
@@ -78,6 +80,18 @@ Now an example of what your script would look like
     "build": "tsc",
     "dev:server": "ts-node-dev --inspect --ignore-watch node_modules --transpileOnly src/server.ts"
   },
+  
 ```
-###### Simple, isn't it?
+### Now let's go to the REALLY IMPORTANT part, the standardization of the code
+
+Still at the terminal, let's add our dear Eslint!
+
+```bash
+# Add the Eslint
+$ yarn add eslint -D
+
+```
+Still in the terminal we will choose some options to standardize our code
+###### Under Development...
+
 Antônio Bernardino 👋🏽 [Entre em contato!](https://www.linkedin.com/in/tony-silva/)
