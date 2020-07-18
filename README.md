@@ -53,7 +53,7 @@ Now, opening the package.json file, under license, let's include some scripts.
     "build": "tsc",
     "dev:server": "ts-node-dev src/server.ts"
   },
-# When saving, we can start a terminal within the visual itself and run the command 'yarn dev: server'
+# When saving, we can start a terminal within the visual itself and run the command 'yarn dev:server'
 
 
 ```
