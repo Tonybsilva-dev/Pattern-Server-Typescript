@@ -57,7 +57,21 @@ Now, opening the package.json file, under license, let's include some scripts.
 
 
 ```
+### Now, some hacks.
 
+We will dramatically increase our compilation speed
+
+```bash
+# Definition
+1. ** --inspect: ** adds permission for the debugger to observe the application.
+2. ** --ignore-watch node_modules: ** causes it to ignore the node_modules folder when executing the project
+3. ** --transpileOnly: ** The flag indicates that it only transpils the code and does not check whether it is right or wrong.
+4. ** --respawn: ** The flag is for ts-node-dev to observe changes in the code, to transpile and auto-reload the application.
+5. - ** --no-notify: ** The flag is used to remove server update notifications from the node.
+# We can add some flags to our script ignoring some conditions and increasing our compilation speed, they may not be as noticeable on a small project, but try removing some of them when your project is bigger!
+
+
+```
 
 
 Antônio Bernardino 👋🏽 [Entre em contato!](https://www.linkedin.com/in/tony-silva/)
