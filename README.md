@@ -91,7 +91,54 @@ Still at the terminal, let's add our dear Eslint!
 $ yarn add eslint -D
 
 ```
-Still in the terminal we will choose some options to standardize our code
-###### Under Development...
+Still in the terminal we will choose some options to standardize our code.
+Have it as a style guide!
+
+The settings can be made in three different ways, namely:
+
+Answer questions about your style.
+
+Answering style questions
+Selecting this configuration option, we must answer some questions:
+
+```bash
+
+Use a popular style guide?
+Use a popular style guide? Yes, I Chose AirBNB
+
+Are you using ECMAScript 6 features?
+Are we using JavaScript ES6 features? Yes
+
+Are you using ES6 Modules?
+Are we using the ES6 module system? Yes
+
+Where will you code run?
+Where will our code run? Node. (it's a server example)
+
+Do you use CommonJS?
+Do we use the CommonJS module loading system? No
+
+Do you use JSX?
+Do we use JSX? No
+
+What style of indentation do you use?
+What kind of identification do we use? Spaces (spaces).
+
+What quotes do you use for strings?
+What kind of quotes will we use to declare strings? Single.
+
+What line endings do you use?
+How should our lines end? Unix.
+
+💡 Note: If we choose the Unix type, our lines must end with \ n, however, when we choose Windows they must 
+end with \ r \ n (for those who do not know \ r it would be return and \ n would be line).
+
+Do you require semicolons?
+Will we oblige the information of semicolons (;)? Yes (Y abbreviation of yes).
+
+What format do you want you config file to be in?
+What file format do we want to save our settings to? JSON.
+```
+And finally, all the questions are answered, in that way, a new file called .eslintrc.json must have been created at the root of the project.
 
 Antônio Bernardino 👋🏽 [Entre em contato!](https://www.linkedin.com/in/tony-silva/)
