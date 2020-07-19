@@ -26,7 +26,7 @@ $ yarn init -y
 # Adding Typescript to the project
 $ yarn add typescript -D
 
-# Adding Typescript to the project
+# Converting the code
 $ yarn tsc --init
 💡 Note: Converting typescript code to javascript and creating the tsconfig.json file
 💡 Note: From here just use 'yarn tsc' to convert all the code
