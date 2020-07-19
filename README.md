@@ -22,10 +22,14 @@ First create a folder to start the application backend, and then immediately, ac
 # Starting the Package.json
 $ yarn init -y
 
-# Adding TSC to the project
-$ yarn add tsc
-💡 Note: Here we will add the file tsconfig.json and we will be able to convert all Typescript code into Javascript
 
+# Adding Typescript to the project
+$ yarn add typescript -D
+
+# Adding Typescript to the project
+$ yarn tsc --init
+💡 Note: Converting typescript code to javascript and creating the tsconfig.json file
+💡 Note: From here just use 'yarn tsc' to convert all the code
 
 # Adding ExpressJs
 $ yarn add express
